@@ -1,0 +1,49 @@
+{
+  "name": "finetwork-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Finetwork (Spanish telecom). Query invoices, services, billing.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "finetwork-mcp": "src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablodelarco/finetwork-mcp.git"
+  },
+  "homepage": "https://github.com/pablodelarco/finetwork-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/pablodelarco/finetwork-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "finetwork",
+    "telecom",
+    "spain",
+    "claude",
+    "bun"
+  ],
+  "license": "MIT"
+}

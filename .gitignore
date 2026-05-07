@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# secrets — NEVER commit
+credentials.json
+.env
+.env.*
+!.env.example
+
+# build / cache
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
